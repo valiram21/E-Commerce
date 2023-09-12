@@ -1,0 +1,416 @@
+/* ---------------------------header---------------------------------- */
+
+body{
+    overflow-x: hidden; background-color: white; margin: 40px;
+}
+.grey{
+    background-color: gainsboro;
+}
+header{
+    display: grid;grid-template-columns: repeat(3,1fr); margin: 15px;
+    margin-left: 80px;margin-right: 60px; padding: 15px;
+    
+    /* border: 1px solid black; */
+}
+.head2{
+    list-style: none;
+    display: grid;grid-template-columns: repeat(6,1fr);
+}
+
+.head1 i{
+    color: orange;
+}
+.a1{
+    text-decoration: none;
+    padding: 15px;
+}
+.l{
+     color: blue;
+}
+.g{
+     color: orange
+}
+.l,.g{
+    display: inline; font-size: xx-large;
+}
+.head3 i{
+    padding: 7px;
+    background-color: rgb(190, 188, 188);border-radius: 5px;
+}
+.head3{
+    padding: 10px; margin-left: 160px;
+}
+
+
+
+/* ----------------------------------banner---------------------------------- */
+
+
+.img1{
+    width: 100%;
+}
+.org{
+    color: orangered;
+}
+.banner1{
+    margin-top: -300px;
+    margin-left: 450px;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.banner2{
+    margin-top: 20px; margin-left: 450px;font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.banner3{
+    
+    margin-top: 20px; margin-left: 520px; font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.a2{
+    text-decoration: none;color: black; position: absolute;
+    margin-top: 10px;margin-left: 630px; border: 2px solid black;
+    font-size:large;padding: 8px;border-radius: 5px; padding-left: 30px;
+     padding-right: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* -------------------------------our features---------------------------------- */
+
+
+#features{
+    margin-top: 180px; margin-left: 590px; font-size:22px;
+}
+.feature2{
+    color: white; font-size: xx-large ;
+    clip-path: polygon(100% 0, 96% 49%, 100% 100%, 0% 100%, 6% 51%, 0% 0%);
+            background-color: orange;
+            padding: 10px;
+             /* padding-right: 20px; */
+}
+.vr1{
+    margin: 10px; background-color: white;
+}
+
+
+.feature7{
+    border: 1px dotted grey; padding: 20px;
+    margin: 10px;
+    /* position: absolute; */
+    text-align: center;
+    background-color: white;
+
+}
+.feature3,.feature4,.feature5{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.a3{
+    text-decoration: none; color: black;
+    border: 2px solid black; font-family: Arial, Helvetica, sans-serif;
+    padding: 7px; width: 100px;border-radius: 5px; text-align: center;
+    padding-left: 30px;padding-right: 50px;
+}
+.vr2{
+    margin: 10px; background-color: white;
+}
+.feature8{
+    border: 1px dotted grey; padding: 20px;text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px; padding-top: 45px;
+    background-color: white;
+}
+.a4{
+    text-decoration: none; color: black;
+    border: 2px solid black; font-family: Arial, Helvetica, sans-serif;
+    padding: 7px; width: 100px;border-radius: 5px; text-align: center;
+    padding-left: 30px;padding-right: 50px;
+}
+.vr3{
+    margin: 10px; background-color: white;
+}
+.feature12{
+    border: 1px dotted grey; padding: 20px;text-align: center;
+    font-family: Arial, Helvetica, sans-serif; padding-top: 30px;
+    background-color: white; margin: 7px; margin-top: 10px; padding-bottom: 35px;
+    
+}
+.a5{
+    text-decoration: none; color: black;
+    border: 2px solid black; font-family: Arial, Helvetica, sans-serif;
+    padding: 7px; width: 100px;border-radius: 5px; text-align: center;
+    padding-left: 30px;padding-right: 50px;
+ 
+}
+.feature3{
+    display: grid;grid-template-columns: repeat(3,1fr);   
+    padding-left: 150px; padding-right: 150px;
+
+}
+
+
+
+/* -----------------------------our products------------------------------------- */
+
+
+.products{
+    margin-left: 580px; font-size: 28px;
+}
+.prod2{
+    color: white;  clip-path: polygon(100% 0, 96% 49%, 100% 100%, 0% 100%, 6% 51%, 0% 0%);
+    background-color: orange; padding: 10px;
+}
+
+.vr4{
+    margin: 10px; background-color: white;
+}
+.prod4{
+    border: 1px dotted grey; padding: 20px;text-align: center; padding-bottom: 20%;
+    font-family: Arial, Helvetica, sans-serif; padding-top: 30px;
+    font-size: 25px; margin: 10px;margin-bottom: 10px;
+    background-color: white;
+}
+.prod4 img{
+    width: 70%; height: 50%;
+}
+.prod4 i{
+    color:orangered;
+}
+.a6{
+    text-decoration: none; color: black;
+    border: 2px solid black; font-family: Arial, Helvetica, sans-serif;
+    padding: 7px; width: 100px;border-radius: 5px; text-align: center;
+    padding-left: 30px;padding-right: 50px;
+   
+}
+.prod3{
+    display: grid;grid-template-columns: repeat(3,1fr);
+    padding-left: 150px; padding-right: 150px;
+}
+
+
+
+
+/* ------------------------------product categories---------------------------- */
+
+
+.prodcate{
+    margin-left: 580px; font-size: 28px;
+}
+.cate{
+    color:white; clip-path: polygon(100% 0, 96% 49%, 100% 100%, 0% 100%, 6% 51%, 0% 0%);
+    background-color: orange; padding: 10PX;
+}
+
+.prodcate2{
+    display: flex;
+    /* border: 1px solid black; */
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    box-sizing: border-box;
+    padding-left: 150px; padding-right: 150px;
+
+}
+.vr5{
+    margin: 10px;  height: 400px;
+    border: 1px dotted grey; padding-top: 30px;
+    
+}
+.vr5 img{
+    width: 90%;
+}
+
+.prodcate3{
+     width: 24.1%; 
+    padding-bottom: -30px; padding-top: -30px;
+    background-color: white;
+    
+
+}
+.a7{
+    text-decoration: none; color: black;
+    border: 2px solid black; font-family: Arial, Helvetica, sans-serif;
+    padding: 7px; width: 100px;border-radius: 5px; text-align: center;
+    padding-left: 30px;padding-right: 50px;
+    
+}
+.prodcate2 :first-child{
+ margin-right: 10px;
+}
+.prodcate2 :last-child{
+    margin-left: 10px;
+}
+.prodcate2 :nth-child(2){
+    margin-right: 10px;
+}
+
+
+
+
+/* ---------------------------customers review------------------------------------ */
+
+
+.customerreview{
+    margin-left: 580px; font-size: 28px;
+}
+
+.review{
+color:white;  clip-path: polygon(100% 0, 96% 49%, 100% 100%, 0% 100%, 6% 51%, 0% 0%);
+background-color: orange; padding: 10px;
+}
+
+.vr6{
+    margin: 10px; background-color: white;
+}
+.cusrev3{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center; border: 1px dotted grey;
+    padding-top: 30px;padding-bottom: 30px;
+    background-color: white; margin: 10px;
+}
+.cusrev3 img{
+    border-radius: 50%;
+}
+.cusrev3 i{
+    color:orangered
+}
+.cusrev2{
+    display: grid;grid-template-columns: repeat(3,1fr);
+    padding-left: 150px; padding-right: 150px;
+}
+
+
+
+/* --------------------------------our blogs--------------------------------------- */
+
+
+.ourblogs{
+    margin-left: 580px; font-size: 28px; 
+}
+.blogs{
+    color: white; clip-path: polygon(100% 0, 96% 49%, 100% 100%, 0% 100%, 6% 51%, 0% 0%);
+    background-color: orange; padding: 10px;
+}
+
+.ourblogs2{
+    display: grid;grid-template-columns: repeat(3,1fr);
+    padding-left: 150px; padding-right: 150px;
+
+}
+.div{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left; border: 1px dotted grey;
+    padding-bottom: 30px;
+    background-color: white; margin: 10px;
+}
+.div img{
+    width: 360px; height: 200px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+.div i{
+    color: orangered;
+}
+.a8{
+    text-decoration: none; color: black;
+    border: 2px solid black; font-family: Arial, Helvetica, sans-serif;
+    padding: 7px; width: 100px;border-radius: 5px; text-align: center;
+    padding-left: 15px;padding-right: 15px;
+}
+.user{
+    margin-left: 20px;
+}
+.date{
+    margin-left: 220px; margin-top: -35px;
+}
+.div2{
+    font-size:large; padding-left: 20px;
+}
+.div2 p{
+ font-size: small; 
+}
+
+
+
+/* -------------------------footer------------------------------------------------------- */
+
+.ft{
+    background-color: white;
+}
+
+footer{
+    display: grid;grid-template-columns: repeat(4,1fr);
+    background-color: white;
+    /* padding-left: 150px; padding-right: 150px; */
+    margin-left: 160px; margin-right: 155px; padding-left: 5px;
+
+}
+.ach{
+    color: blue;
+}
+.it{
+    color:orangered;
+}
+h2 i{
+    color: orange;
+}
+.icon i{
+    padding: 10px; margin: 2px;
+    background-color: rgb(190, 188, 188);border-radius: 5px;
+}
+
+ul{ 
+    list-style: none;
+}
+.ft2 i{
+    color: orange;
+} 
+
+.ft2 h2{
+    color: blue;
+}
+.ft3 i{
+    color: orange;
+}
+
+.ft3 h2{
+color: blue;
+}
+
+.ft4 a{
+    text-decoration: none; color: black; border-radius: 5px;
+    border: 1px solid black; padding: 8px; padding-left: 30px; padding-right: 30px;
+}
+.ft4 input{
+padding: 5px; background-color: rgba(214, 212, 212, 0.685); 
+}
+.ft4 h2{
+    color: blue;
+}
+p{
+    color: grey;
+}
+
+
+
+/* ----------------------------------bottom line------------------------------------ */
+
+.bline{
+    padding-left: 150px ; padding-right: 150px;
+}
+
+.execute{
+    text-align: center;
+}
+.ram{
+    color: green;
+    padding: 5px;
+    background: linear-gradient(orange,white,green);
+}
+
+/* -----------------------------completed------------------------------------------ */
